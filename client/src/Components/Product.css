@@ -1,0 +1,39 @@
+/* Product.css */
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.navbar {
+  background-color: #f8f9fa; /* Example background color */
+  padding: 1rem;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333; /* Example text color */
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.navbar-nav .nav-link {
+  color: #333; /* Example text color */
+  margin-right: 1rem;
+}
+
+.navbar-nav .nav-link.active {
+  font-weight: bold;
+}
+
+.navbar-toggler {
+  border-color: #333; /* Example border color */
+}
+
+.navbar-toggler-icon {
+  background-color: #333; /* Example background color */
+}

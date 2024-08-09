@@ -1,0 +1,60 @@
+/* Login.css */
+.login-form {
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff; /* Set background color to white */
+    margin-top: 50px; /* Add margin-top to push the form down */
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:  rgb(41 14 14 / 38%);
+} /* Set background color to black with transparency */
+    /* 0, 0, 0, 0.7 */
+ 
+
+.login-form label {
+    font-weight: bold;
+    color: #333; /* Set label text color to a darker shade */
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.login-form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    animation-direction: alternate;
+}
+
+.login-form button:hover {
+    background-color: #0056b3;
+}
+.alert {
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+
+.alert-danger {
+    color: #721c24; /* Text color for danger alert */
+    background-color: #f8d7da; /* Background color for danger alert */
+    border-color: #f5c6cb; /* Border color for danger alert */
+}
